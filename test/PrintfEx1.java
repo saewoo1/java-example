@@ -22,6 +22,7 @@ public class PrintfEx1 {
     System.out.printf("finger=[%05d]%n", finger);
     System.out.printf("big=%d%n", big); // 자동적으로 언더바 제거
     System.out.printf("hex=%#x%n", hex); // #를 추가해야 0x~ 식으로 나온다
+    System.out.printf("hex=%#X%n", hex); // 대문자로
     System.out.printf("octNum=%o, %d%n", octNum, octNum);
     System.out.printf("hexNum=%x, %d%n", hexNum, hexNum);
     System.out.printf("binNum=%s, %d%n", Integer.toBinaryString(binNum), binNum); // %b는 boolean, string 형태로 출력해야한다.
